@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Travelocal Contact</title>
+
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+ 
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin: 0;
+        line-height: 1.6;
+    }
+    header {
+        padding: 50px;
+        text-align: center;
+        background: #57D2F2;
+        color: white;
+        font-size: 30px;
+    }
+    #navbar {
+        display:flex;
+        flex-direction: row;
+        list-style:none;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    #navbar li {
+        background-color: #CF66D9;
+        width: 100vh;
+    }
+    #navbar a {
+        text-align:center;
+        text-decoration:none; 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px 40px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    li a:hover {
+        background-color: #125ECF;
+        color: white;
+    }
+    footer {
+        position: relative;        
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-size:  small;
+        background-color: #CF66D9;
+        color: white;
+        text-align: center;
+    }
+    #showcase {
+        
+        background-size:cover;
+        background-position: center;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+    #showcase h1 {
+        font-family: 'Pacifico', cursive;
+    }
+    #section-a {
+        padding: 20px; 
+        color: #125ECF;
+        text-align: justify;
+        align-self: center;
+        display:flex;
+    }
+    #section-b {
+        display:flex;
+       
+    }
+    #section-b div {
+        padding: 20px;
+        width:   33%;
+        
+    }
+    #section-b .box-1, #section-b .box-3 {
+        background-color: whitesmoke;
+        color: #125ECF;
+        
+    }
+    #section-b .box-2 {
+        background-color: whitesmoke;
+        color: #125ECF;
+    }
+
+    #section-c {
+        padding: 20px; 
+        color: #125ECF;
+        text-align:center;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 15px;
+        width: 10px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+        .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #CF66D9;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+        
+    input[type=submit]:hover {
+        background-color: #125ECF; 
+    }
+
+    textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+        
+    table {
+        border-radius: 20px;
+        background-color: #57D2F2;
+        padding: 20px;
+        margin: 0;
+        width: 80%;
+    }
+
+</style>
+</head>
+
+<body>
+    <header id="showcase">
+        <p style="text-align:center;"><img src="https://cdn.discordapp.com/attachments/862586829579354133/862896665744113684/Travelokal_LOGO.png" alt="Logo"></p>
+    </header>
+
+    <nav id="navbar">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="lifestyle.html">Lifestyle</a></li>
+        <li><a href="business.html">Business</a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </nav>
+
+    <section id="section-a">
+        <div style="width:60%; float:left;">
+        <h1><p style="text-align:left;">Contact Us</p></h1>
+        <table style="margin:left;">
+            <tr><th><b><p style="text-align:center;"></p></b></th></tr>
+            <tr>
+            <td>
+                <br/><label for="fname>"><b>NAME</b></label><br/>
+                    <input id="fname" type="text" name="fname" placeholder="Your name..."/><br/>
+            
+                <label for="mname>"><b>Contact Number</b></label><br/>
+                    <input id="mname" type="text" name="mname" placeholder="Your contact number..."/><br/>
+    
+                <label for="flname>"><b>Email Address</b></label><br/>
+                    <input id="lname" type="text" name="lname" placeholder="Your email ad..."/><br/>
+            
+                <label for="address"><b>MESSAGE</b></label><br>
+                    <textarea id="address" placeholder="Your message..."></textarea><br/>
+                <br/>
+                <input type="submit" name="submit" value="Submit"/>
+            </form> 
+        </table>
+        </div>
+    
+        <div>  
+            <h1><p style="text-align:left;">Follow Us</p></h1>
+            <a href="facebook.com" class="fa fa-facebook"></a>
+            <a href="twitter.com" class="fa fa-twitter"></a>
+            <a href="instagram.com" class="fa fa-instagram"></a>
+            <a href="youtube.com" class="fa fa-youtube"></a>
+            <br><br>
+            <h1><p>Our Office</p></h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15444.753487262622!2d120.9786306!3d14.5883396!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdfd22247026cda49!2sLiwayway%20Magazine%20Corporation!5e0!3m2!1sen!2sph!4v1625814575656!5m2!1sen!2sph" width="500" height="350" style="border:20px;" allowfullscreen="" loading="lazy"></iframe>
+            
+            
+        </div>
+    </section>
+    
+    <br><br><br>
+    <section id="section-b">
+        
+        <div class="box-1">
+            <p style="text-align:center;"><img src="https://cdn.discordapp.com/attachments/862586829579354133/862971302675349524/1.jpg"></p>
+        </div>
+        <div class="box-2">
+            <p style="text-align:center;"><img src="https://cdn.discordapp.com/attachments/862586829579354133/862971305757638706/2.jpg"></p>
+         
+        </div>
+        <div class="box-3">
+            <p style="text-align:center;"><img src="https://cdn.discordapp.com/attachments/862586829579354133/862971308882001940/3.jpg"></p>
+        </div>
+        <div class="box-3">
+            <p style="text-align:center;"><img src="https://cdn.discordapp.com/attachments/862586829579354133/862971311906750484/4.jpg"></p>
+        </div>
+        <div class="box-3">
+            <p style="text-align:center;"><img src="https://cdn.discordapp.com/attachments/862586829579354133/862971316239204382/5.jpg"></p>
+        </div>
+        <div class="box-3">
+            <p style="text-align:center;"><img src="https://cdn.discordapp.com/attachments/862586829579354133/862971319057514496/6.jpg"></p>
+        </div>
+        <div class="box-3">
+            <p style="text-align:center;"><img src="https://cdn.discordapp.com/attachments/862586829579354133/862971321255854091/7.jpg"></p>
+        </div>
+        <div class="box-3">
+            <p style="text-align:center;"><img src="https://cdn.discordapp.com/attachments/862586829579354133/862971324372746240/8.jpg"></p>
+        </div>
+
+    </section>
+
+    
+    <section id="section-c">
+        
+    </section>
+
+    <footer>Copyright © All rights reserved. </footer>
+</body>
+</html>
